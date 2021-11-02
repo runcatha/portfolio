@@ -7,7 +7,8 @@ import {
   MobileIcon,
   NavMenu,
   NavItem,
-  NavLinks
+  NavLinks,
+  a
 } from './NavbarElements'
 
 const Navbar = ({ toggle }) => {
@@ -27,7 +28,8 @@ const Navbar = ({ toggle }) => {
               <NavLinks to="projects">Projects</NavLinks>
             </NavItem>
             <NavItem>
-            <NavLinks href="https://drive.google.com/file/d/1MHDD_8j3FSJeQWfyxnmNnz-pJ9SmmAN8/view?usp=sharing">Resume</NavLinks>
+              <NavLinks>
+              <a href="https://drive.google.com/file/d/1MHDD_8j3FSJeQWfyxnmNnz-pJ9SmmAN8/view?usp=sharing">Resume</a></NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="contact">Contact</NavLinks>
