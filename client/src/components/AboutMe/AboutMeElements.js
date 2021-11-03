@@ -63,12 +63,12 @@ export const AboutMeContent = styled.div`
 export const AboutMeH2 = styled.div`
   margin-top: 24px;
   color: #fff;
-  font-size: 24px;
+  font-size: 2rem;
   text-align: center;
   max-width: 600px;
 
   @media screen and (max-width: 768px) {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 
   @media screen and (max-width: 480px) {
@@ -82,17 +82,14 @@ border-radius: 50%;
 height: 35vh;
 width: 30vw;
 `
-export const AboutMeH1 = styled.div`
+export const AboutMeH1 = styled.h1`
+  margin-top: 15%;
   color: #fff;
-  font-size: 48px;
+  font-size: 2.5rem;
   text-align: center;
 
-  @media screen and (max-width: 768px) {
-    font-size: 40px;
-  }
-
   @media screen and (max-width: 480px) {
-    font-size: 32px;
+    font-size: 2rem;
   }
 `
 export const AboutMeP = styled.div`

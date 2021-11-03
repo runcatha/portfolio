@@ -8,3 +8,18 @@ a {
   text-decoration: none;
   color: #fff;
 }
+input {
+  padding: 5% 10%;
+}
+textarea {
+  padding: 5% 10%;
+}
+button {
+  color: rgb(38, 114, 141);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}

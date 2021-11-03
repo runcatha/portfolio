@@ -3,6 +3,8 @@ import Sidebar from '../components/Sidebar'
 import Navbar from '../components/Navbar/'
 import AboutMe from '../components/AboutMe'
 import Projects from '../components/Projects'
+import Contact from '../components/Contact'
+import Footer from '../components/Footer'
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -17,6 +19,8 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <AboutMe />
       <Projects />
+      <Contact />
+      <Footer />
     </>
   )
 }
