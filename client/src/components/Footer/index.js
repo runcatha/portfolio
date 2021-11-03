@@ -11,7 +11,7 @@ import Logo2 from '../../images/github.png'
 
 const Footer = () => {
   return (
-    <FooterContainer>
+    <FooterContainer id='footer'>
       <FooterLinksContainer>
             <FooterLink>
               <a href='https://github.com/runcatha'>
